@@ -1,0 +1,78 @@
+1. working on different variables
+
+	K=202
+	print(K) 
+	202   
+
+	h,a,r,i=1,2,3,4
+	print(h,a,r,i)
+	1,2,3,4
+
+	#multiple variables with single assignment
+	a=b=c=d=10
+	print(a,b,c,d)
+	10 10 10 10
+
+
+2. working on string concatenation
+
+	firstname="hari"
+	lastname=" kvt"
+	print(firstname+lastname)
+output:
+	harikvt
+
+
+3. program for simple calculator
+
+a=100
+b=20
+print(a+b)
+print(a*b)
+print(a/b)
+print(a-b)
+
+output:
+120
+2000
+5.0
+80
+
+
+4.find the type of available datatypes in python
+
+a="hello"
+print(type(a))
+b=20
+print(type(b))
+d=10.00
+print(type(d))
+c=True
+print(type(c))
+
+output:
+    <class 'str'>
+    <class 'int'>
+    <class 'float'>
+    <class 'bool'>
+
+
+
+
+POWER SHELL
+
+
+1.Run a script and demonstrate about  get-update, get-unique, get-date and get-alias.
+
+get-date : it displays the current date and time.
+get-process : it displays all the processess that are running on the system.
+get-alias : it displays all the alias names for the commands that we use in powershell.
+write-host : it is used to display whatever we right next to the command write-host.
+
+
+2.Run a script and demonstrate if elseif condition?
+
+	$num="100"
+	$n="200"
+	if ($num -eq "200") {'find a num'} elseif ($num -eq "20") {'finding a num'} else {'found a num'}
+		found a num
